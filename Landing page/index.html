@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">
+                <img src="logo.jpg" class="brand-logo" height="20px", width="100px"> 
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="header-section">
+        <div class="container">
+            <h1>Welcome to Techpedia</h1>
+            <p>Your one-stop solution for all your tech needs.</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
+    </header>
+    
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="https://cdn.prod.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5758186fbd8_ABM%20college%20mobile%20app%20dev%20main.jpg" alt="Service 1 Image">
+                    <h3>App Development</h3>
+                    
+                </div>
+                <div class="service-card">
+                    <img src="https://www.netsolutions.com/insights/wp-content/uploads/2023/04/how-to-find-app-developers-for-your-business.png.webp" alt="Service 2 Image">
+                    <h3>Digital Marketing</h3>
+                    
+                </div>
+                <div class="service-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6xZ_UAz6ch13drzUBdhbnwibpSCYi8IWWBwakCjldF8bVlz4okkch0dMZLfeZrymhsI&usqp=CAU" alt="Service 3 Image">
+                    <h3>IT consultancy</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Techpedia, we offer a comprehensive suite of cutting-edge software services designed to empower businesses and individuals alike. With a focus on innovation, quality, and customer satisfaction, we leverage our expertise to deliver tailored solutions that address your unique needs.</p>
+            <p>Techpedia is your premier destination for top-tier app and web services. Our expertise lies in crafting custom digital solutions that drive business growth and enhance user engagement.</p>
+            <img src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9mZmljZSUyMGNvbXB1dGVyfGVufDB8fDB8fHww" height="300px" width="500px";>
+        </div>
+    </section>
+
+    <section id="partners" class="Partners-section">
+        <div class="container">
+            <h2>Partners</h2>
+            <div class="Partners-cards">
+                <div class="Partners-card">
+                    <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" alt="Microsoft">
+                    <p>"Microsoft"</p>
+                </div>
+                <div class="Partners-card">
+                    <img src="https://blog.adobe.com/b/media_125782030464563ebbc483186033e897f113e7626.png?width=750&format=png&optimize=medium" alt="Adobe">
+                    <p>"Adobe"</p>
+                </div>
+                <div class="Partners-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/1200px-Dell_logo_2016.svg.png" alt="Dell">
+                    <p>"Dell"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
